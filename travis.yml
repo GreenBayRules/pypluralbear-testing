@@ -1,0 +1,6 @@
+language: python
+before_script:
+  - pip install git+https://github.com/coala/coala.git
+  - pip install git+https://gitlab.com/coala/bears/coala-antlr.git
+script: coala --non-interactive -V
+
