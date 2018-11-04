@@ -1,0 +1,4 @@
+[all.plural]
+bears = PyPluralNamingBear
+files = **.py
+
